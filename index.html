@@ -9,72 +9,75 @@
 	<script src="https://kit.fontawesome.com/132e30c8bc.js" crossorigin="anonymous"></script>
 	<title>The brand of luxerious fashion</title>
 </head>
-<body>
-	<header>
-		<div class="container">
-			<a href="/" class="logo"><img src="img/logo.png" alt=""><p>bran<span>d</span></p></a>
-			<form class="search">
-				<select name="search">
+<body class="main">
+	<header class="header main__header">
+		<div class="container header__container">
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="" class="logo__img">
+				<p class="logo__text">bran<span>d</span></p>
+			</a>
+			<form class="search-form">
+				<select name="search" class="search-form__select">
 					<option value="Browse">Browse</option>
 				</select>
-				   <input type="text" placeholder="Search for item...">
-				   <input type="button" value="">
+				<input type="text" placeholder="Search for item..." class="search-form__input">
+				<input type="button" value="" class="search-form__btn">
 			</form>
 			<div class="account">
-				<a href=""><img src="img/cart.png" alt="Cart"></a>
-				<input type="button" value="My Account" class="account_btn">
+				<a href="" class="cart"><img src="img/cart.png" alt="Cart"></a>
+				<input type="button" value="My Account" class="account__btn">
 			</div>
 		</div>
 	</header>
 
 	<nav class="top-menu">
-		<div class="container">
-			<a href="">Home</a>
-			<a href="">Man</a>
-			<a href="">Women</a>
-			<a href="">Kids</a>
-			<a href="">Accoseriese</a>
-			<a href="">Featured</a>
-			<a href="">Hot Deals</a>
+		<div class="container top-menu__container">
+			<a href="" class="top-menu__link">Home</a>
+			<a href="" class="top-menu__link">Man</a>
+			<a href="" class="top-menu__link">Women</a>
+			<a href="" class="top-menu__link">Kids</a>
+			<a href="" class="top-menu__link">Accoseriese</a>
+			<a href="" class="top-menu__link">Featured</a>
+			<a href="" class="top-menu__link">Hot Deals</a>
 		</div>
 	</nav>
 
 	<section class="promo">
-		<div class="container">
-			<h1>The brand <span class="sub">of luxerious <span>fashion</span></span></h1> 
+		<div class="container promo__container">
+			<h1 class="promo__h1">The brand <span class="promo__h1-sub">of luxerious <span>fashion</span></span></h1> 
 		</div>
 	</section>
 
 	<section class="offers">
-		<div class="container">
-			<div class="col-1">
-				<div class="img">
-					<div class="title">
-						<p>hot deal</p>
-						<span>for men</span>
+		<div class="container offers__container">
+			<div class="offers__left-column">
+				<div class="offers__img">
+					<div class="offers__title">
+						<p class="offers__promo-title">hot deal</p>
+						<span class="offers__promo-text">for men</span>
 					</div>
 					<img src="img/banner1.jpg" alt="">
 				</div>
-				<div class="img">
-					<div class="title">
-						<p>luxirous & trendy</p>
-						<span>accesories</span>
+				<div class="offers__img">
+					<div class="offers__title">
+						<p class="offers__promo-title">luxirous & trendy</p>
+						<span class="offers__promo-text">accesories</span>
 					</div>
 					<img src="img/banner2.jpg" alt="">
 				</div>
 			</div>
-			<div class="col-2">
-				<div class="img">
-					<div class="title">
-						<p>30% offer</p>
-						<span>women</span>
+			<div class="offers__right-column">
+				<div class="offers__img">
+					<div class="offers__title">
+						<p class="offers__promo-title">30% offer</p>
+						<span class="offers__promo-text">women</span>
 					</div>
 					<img src="img/banner3.jpg" alt="">
 				</div>
-				<div class="img">
-					<div class="title">
-						<p>new arrivals</p>
-						<span>for kids</span>
+				<div class="offers__img">
+					<div class="offers__title">
+						<p class="offers__promo-title">new arrivals</p>
+						<span class="offers__promo-text">for kids</span>
 					</div>
 					<img src="img/banner4.jpg" alt="">
 				</div>			
@@ -82,189 +85,192 @@
 		</div>
 	</section>
 
-	<section class="featured_items">
+	<section class="featured-items">
 		<div class="container">
 			<h2>Fetured Items</h2>
-			<p>Shop for items based on what we featured in this week</p>
-			<div class="items">
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item1.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+			<p class="featured-items__description">Shop for items based on what we featured in this week</p>
+			<div class="featured-items__items">
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item1.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item2.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item2.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item3.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item3.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item4.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item4.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item5.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item5.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item6.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item6.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item7.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item7.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
-				<div class="item">
-					<div class="crop">
-						<img src="img/feat_item8.jpg" alt="">
-						<a href="" class="hidden_btn"></a>
-						<a href="" class="add_cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+					<div class="featured-items__item">
+						<div class="featured-items__crop-item">
+							<img src="img/feat_item8.jpg" alt="" class="featured-items__img-item">
+							<a href="" class="featured-items__hidden-btn"></a>
+							<a href="" class="featured-items__add-cart"><img src="img/cart_btn.png" alt="Cart">Add To Card</a>
+						</div>
+						<p class="featured-items__title-item">Mango People T-shirt</p>
+						<p class="featured-items__price-item">$52.00</p>
 					</div>
-					<p class="title">Mango  People  T-shirt</p>
-					<p class="price">$52.00</p>
-				</div>
 			</div>
-			<a href="" class="all_product">Browse All Product<i class="fas fa-long-arrow-alt-right"></i></a>
+			<a href="" class="featured-items__all-product-btn">Browse All Product<i class="fas fa-long-arrow-alt-right"></i></a>
 		</div>		
 	</section>
 
 	<section class="banner">
-		<div class="container">
-			<div class="banner_title">
-				<p>30% <span class="offer">offer</span></p>
-				<span>for women</span>
+		<div class="container banner__container">
+			<div class="banner__title">
+				<p class="banner__promo-title">30% <span class="banner__offer">offer</span></p>
+				<span class="banner__promo-text">for women</span>
 			</div>
-			<aside>
-				<article>
+			<aside class="banner__adv-list">
+				<article class="banner__item">
 					<img src="img/delivery_icon.png" alt="">
-					<div class="description">
-						<h4>Free Delivery</h4>
-						<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+					<div class="banner__description">
+						<h4 class="banner__adv-title">Free Delivery</h4>
+						<p class="banner__adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 					</div>
 				</article>
-				<article>
+				<article class="banner__item">
 					<img src="img/sale_icon.png" alt="">
-					<div class="description">
-						<h4>Sales & discounts</h4>
-						<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+					<div class="banner__description">
+						<h4 class="banner__adv-title">Sales & discounts</h4>
+						<p class="banner__adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 					</div>
 				</article>
-				<article>
+				<article class="banner__item">
 					<img src="img/quality_icon.png" alt="">
-					<div class="description">
-						<h4>Quality assurance</h4>
-						<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+					<div class="banner__description">
+						<h4 class="banner__adv-title">Quality assurance</h4>
+						<p class="banner__adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
 					</div>
 				</article>
 			</aside>
 		</div>
 	</section>
 
-	<section class="fb_subscribe">
-		<div class="container">
-			<div class="feedback">
-				<div class="crop"><img src="img/fb_prew.jpg" alt=""></div>
-				<div class="fb_content">
-					<p class="fb_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
-					<span class="name">Bin Burhan</span>
-					<span class="city">Dhaka, Bd</span>
-					<div class="slider">
-						<a class="control"></a>
-						<a class="control active"></a>
-						<a class="control"></a>
+	<section class="fb-subscribe main__fb-subscribe">
+		<div class="container fb-subscribe__container">
+			<div class="fb-subscribe__feedback">
+				<div class="fb-subscribe__fb-crop"><img src="img/fb_prew.jpg" alt=""></div>
+				<div class="fb-subscribe__fb-content">
+					<p class="fb-subscribe__fb-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+					<span class="fb-subscribe__fb-name">Bin Burhan</span>
+					<span class="fb-subscribe__fb-city">Dhaka, Bd</span>
+					<div class="fb-subscribe__slider">
+						<a class="fb-subscribe__slider-control"></a>
+						<a class="fb-subscribe__slider-control fb-subscribe__slider-control_active"></a>
+						<a class="fb-subscribe__slider-control"></a>
 					</div>
 				</div>
 			</div>
-			<div class="subscribe">
-				<h3>Subscribe</h3>
-				<p>for our newletter and promotion</p>
-				<form action="">
-					<input type="email" placeholder="Enter Your Email">
-					<input type="button" value="Subscribe">
+			<div class="fb-subscribe__subscribe">
+				<h3 class="fb-subscribe__subs-title">Subscribe</h3>
+				<p class="fb-subscribe__subs-description">for our newletter and promotion</p>
+				<form action="" class="fb-subscribe__form">
+					<input type="email" placeholder="Enter Your Email" class="fb-subscribe__email">
+					<input type="button" value="Subscribe" class="fb-subscribe__button">
 				</form>
 			</div>
 		</div>
 	</section>
 
-	<footer>
-		<div class="container">
-			<div class="main">
-				<div class="info">
-					<a href="/" class="logo"><img src="img/logo.png" alt=""><p>bran<span>d</span></p></a>
-					<p class="desc">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
-					<p class="desc">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+	<footer class="footer">
+		<div class="container footer__container">
+			<div class="footer__footer-navigation">
+				<div class="footer__info">
+					<a href="index.html" class="logo">
+						<img src="img/logo.png" alt="" class="logo__img">
+						<p class="logo__text">bran<span>d</span></p>
+					</a>
+					<p class="footer__desc">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+					<p class="footer__desc">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
 				</div>
-				<nav class="footer-menu">
-					<p>COMPANY</p>
-					<a href="">Home</a>
-					<a href="">Shop</a>
-					<a href="">About</a>
-					<a href="">How It works</a>
-					<a href="">Contact</a>
+				<nav class="footer__footer-menu">
+					<p class="footer__menu-title">COMPANY</p>
+					<a href="" class="footer__link">Home</a>
+					<a href="" class="footer__link">Shop</a>
+					<a href="" class="footer__link">About</a>
+					<a href="" class="footer__link">How It works</a>
+					<a href="" class="footer__link">Contact</a>
 				</nav>
-				<nav class="footer-menu">
-					<p>INFORMATION</p>
-					<a href="">Tearms & Condition</a>
-					<a href="">Privacy Policy</a>
-					<a href="">How to Buy</a>
-					<a href="">How to Sell</a>
-					<a href="">Promotion</a>
+				<nav class="footer__footer-menu">
+					<p class="footer__menu-title">INFORMATION</p>
+					<a href="" class="footer__link">Tearms & Condition</a>
+					<a href="" class="footer__link">Privacy Policy</a>
+					<a href="" class="footer__link">How to Buy</a>
+					<a href="" class="footer__link">How to Sell</a>
+					<a href="" class="footer__link">Promotion</a>
 				</nav>
-				<nav class="footer-menu">
-					<p>SHOP CATEGORY</p>
-					<a href="">Men</a>
-					<a href="">Women</a>
-					<a href="">Child</a>
-					<a href="">Apparel</a>
-					<a href="">Brows All</a>
+				<nav class="footer__footer-menu">
+					<p class="footer__menu-title">SHOP CATEGORY</p>
+					<a href="" class="footer__link">Men</a>
+					<a href="" class="footer__link">Women</a>
+					<a href="" class="footer__link">Child</a>
+					<a href="" class="footer__link">Apparel</a>
+					<a href="" class="footer__link">Brows All</a>
 				</nav>
 			</div>
 		</div>
-		<div class="subline">
-			<div class="container">
-				<p>© 2017  Brand  All Rights Reserved.</p>
-				<div class="social">
-					<a href=""><i class="fab fa-facebook-f"></i></a>
-					<a href=""><i class="fab fa-twitter"></i></a>
-					<a href=""><i class="fab fa-linkedin-in"></i></a>
-					<a href=""><i class="fab fa-pinterest-p"></i></a>
-					<a href=""><i class="fab fa-google-plus-g"></i></a>
+		<div class="footer__subline">
+			<div class="container subline__container">
+				<p class="footer__copyright">© 2017  Brand  All Rights Reserved.</p>
+				<div class="footer__social">
+					<a href="" class="footer__link-subline"><i class="fab fa-facebook-f"></i></a>
+					<a href="" class="footer__link-subline"><i class="fab fa-twitter"></i></a>
+					<a href="" class="footer__link-subline"><i class="fab fa-linkedin-in"></i></a>
+					<a href="" class="footer__link-subline"><i class="fab fa-pinterest-p"></i></a>
+					<a href="" class="footer__link-subline"><i class="fab fa-google-plus-g"></i></a>
 				</div>
 			</div>
 		</div>
