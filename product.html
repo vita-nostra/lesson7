@@ -57,22 +57,52 @@
 		<div class="container products__container">
 			<aside>
 				<nav class="criterion products__criterion">
-					<p class="criterion__section-title criterion__section-title_active">Category <i class="fas fa-caret-up"></i></p>
-						<a href="" class="criterion__link">Accessories</a>
-						<a href="" class="criterion__link">Bags</a>
-						<a href="" class="criterion__link">Denim</a>
-						<a href="" class="criterion__link">Hoodies & Sweatshirts</a>
-						<a href="" class="criterion__link">Jackets & Coats</a>
-						<a href="" class="criterion__link">Pants</a>
-						<a href="" class="criterion__link">Polos</a>
-						<a href="" class="criterion__link">Shirts</a>
-						<a href="" class="criterion__link">Shoes</a>
-						<a href="" class="criterion__link">Shorts</a>
-						<a href="" class="criterion__link">Sweaters & Knits</a>
-						<a href="" class="criterion__link">T-Shirts</a>
-						<a href="" class="criterion__link criterion__link_last">Tanks</a>
-					<p class="criterion__section-title">Brand <i class="fas fa-caret-down"></i></p>
-					<p class="criterion__section-title">Designer <i class="fas fa-caret-down"></i></p>
+					<form action="">
+					<input type="checkbox" id="category" class="criterion__section" name="category">
+					<label for="category" class="criterion__section-title">Category<i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></label>
+						<div class="criterion__list">
+							<div class="criterion__links">
+								<a href="#" class="criterion__link">Accessories</a>
+								<a href="#" class="criterion__link">Bags</a>
+								<a href="#" class="criterion__link">Denim</a>
+								<a href="#" class="criterion__link">Hoodies & Sweatshirts</a>
+								<a href="#" class="criterion__link">Jackets & Coats</a>
+								<a href="#" class="criterion__link">Pants</a>
+								<a href="#" class="criterion__link">Polos</a>
+								<a href="#" class="criterion__link">Shirts</a>
+								<a href="#" class="criterion__link">Shoes</a>
+								<a href="#" class="criterion__link">Shorts</a>
+								<a href="#" class="criterion__link">Sweaters & Knits</a>
+								<a href="#" class="criterion__link">T-Shirts</a>
+								<a href="#" class="criterion__link criterion__link_last">Tanks</a>							
+							</div>
+						</div>
+					<input type="checkbox" id="brand" class="criterion__section" name="brand">
+					<label for="brand" class="criterion__section-title">Brand<i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></label>
+						<div class="criterion__list">
+							<div class="criterion__links">
+								<a href="#" class="criterion__link">Accessories</a>
+								<a href="#" class="criterion__link">Bags</a>
+								<a href="#" class="criterion__link">Denim</a>
+								<a href="#" class="criterion__link">Hoodies & Sweatshirts</a>
+								<a href="#" class="criterion__link">Jackets & Coats</a>
+								<a href="#" class="criterion__link criterion__link_last">Tanks</a>							
+							</div>
+						</div>
+					<input type="checkbox" id="designer" class="criterion__section" name="designer">
+					<label for="designer" class="criterion__section-title">Designer<i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></label>
+						<div class="criterion__list">
+							<div class="criterion__links">
+								<a href="#" class="criterion__link">Accessories</a>
+								<a href="#" class="criterion__link">Bags</a>
+								<a href="#" class="criterion__link">Denim</a>
+								<a href="#" class="criterion__link">Hoodies & Sweatshirts</a>
+								<a href="#" class="criterion__link">Jackets & Coats</a>
+								<a href="#" class="criterion__link">T-Shirts</a>
+								<a href="#" class="criterion__link criterion__link_last">Tanks</a>							
+							</div>
+						</div>
+					</form>
 				</nav>			
 			</aside>
 
@@ -113,7 +143,7 @@
 					<div class="product-view__price-filter">
 						<p class="product-view__filter-title">Price</p>
 						<div class="product-view__filter-values">
-							<div class="product-view__filter-price">
+							<div class="product-view__filter-slider">
 								<div class="product-view__filter-controller">
 									<div class="product-view__ctrl-min"></div>
 									<div class="product-view__ctrl-max"></div>
@@ -125,7 +155,7 @@
 					</div>
 				</div>
 
-				<div class="product-view__preview-option">
+				<div class="product-view__sort">
 					<span class="product-view__preview-label">Sort By</span>
 					<form class="product-view__preview-form">
 						<select name="sort" class="product-view__preview-select">
