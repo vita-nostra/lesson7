@@ -9,7 +9,7 @@
 	<script src="https://kit.fontawesome.com/132e30c8bc.js" crossorigin="anonymous"></script>
 	<title>The brand of luxerious fashion</title>
 </head>
-<body class="checkout">
+<body class="cart">
 	<header class="header main__header">
 		<div class="container header__container">
 			<a href="index.html" class="logo">
@@ -61,7 +61,7 @@
 	    </ul>
   	</nav>
 
-	<section class="product-category checkout__product-category">
+	<section class="product-category cart__product-category">
 		<div class="container product-category__container">
 			<h2 class="product-category__title">New arrivals</h2>
 			<div class="product-category__breadcrumb">
@@ -72,64 +72,92 @@
 		</div>
 	</section>
 
-	<section class="checkout-info">
-		<div class="container">
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title checkout-info__h2-title_active"><span>01.</span>Shipping Adress</h2>
-				<div class="checkout-info__content">
-					<div class="checkout-info__registration">
-						<h4 class="checkout-info__h4-title">Check as a guest or register</h4>
-						<p class="checkout-info__desc">Register with us for future convenience</p>
-						<form action="" class="radiobutton checkout-info__radio">
-							<label for="guest">
-								<input type="radio" name="registration" class="checkout-info__radio-input" id="guest">
-								<span>checkout as guest</span>
-							</label>
-							<label for="register">
-								<input type="radio" name="registration" class="checkout-info__radio-input" id="register" checked>
-								<span>register</span>
-							</label>
-						</form>
-						<h4 class="checkout-info__h4-title">register and save time!</h4>
-						<p class="checkout-info__desc">Register with us for future convenience</p>
-						<ul class="checkout-info__list">
-							<li><i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
-							<li><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
-						</ul>
-						<input type="button" value="Continue" class="checkout-btn checkout-info__continue">
-					</div>
-					<div class="checkout-info__login">
-						<h4 class="checkout-info__h4-title">Already registed?</h4>
-						<p class="checkout-info__desc">Please log in below</p>
-						<form action="">
-							<label for="" class="checkout-info__label">Email address<span>*</span></label>
-							<input type="text" class="checkout-info__input">
-							<label for="" class="checkout-info__label">Password<span>*</span></label>
-							<input type="password" class="checkout-info__input">
-							<p class="checkout-info__notes">* Required Fileds</p>
-							<input type="button" value="Log In" class="checkout-btn checkout-info__login-btn">
-							<a href="" class="checkout-info__fogot-btn">Forgot Password ?</a>
-						</form>
-					</div>					
-				</div>
-			</article>
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title"><span>02.</span>Billing information</h2>
-			</article>
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title"><span>03.</span>Shipping information</h2>
-			</article>
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title"><span>04.</span>Shipping method</h2>
-			</article>
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title"><span>05.</span>Payment method</h2>
-			</article>
-			<article class="checkout-info__item">
-				<h2 class="checkout-info__h2-title"><span>06.</span>Order review</h2>
-			</article>
-		</div>		
-	</section>
+  	<section class="shopping-cart">
+  		<div class="container">
+  			<div class="shopping-cart__cart-title">
+  				<p class="shopping-cart__title product-title">Product details</p>
+  				<p class="shopping-cart__title price-title">Unite price</p>
+  				<p class="shopping-cart__title quantity-title">Quantity</p>
+  				<p class="shopping-cart__title shipping-title">Shipping</p>
+  				<p class="shopping-cart__title subtotal-title">Subtotal</p>
+  				<p class="shopping-cart__title action-title">Action</p>
+  			</div>
+  			<div class="shopping-cart__cart-item">
+  				<div class="shipping-cart__product-details">
+  					<img src="img/cart_item1.jpg" alt="" width="100">
+  					<div class="shipping-cart__product-desc">
+  						<p class="shipping-cart__product-name">Mango  People  T-shirt</p>
+	  					<p class="shipping-cart__attribute">Color: <span>Red</span></p>
+	  					<p class="shipping-cart__attribute">Size: <span>Xll</span></p>
+  					</div>
+  				</div>
+  				<p class="shipping-cart__parameters unite-price">150$</p>
+  				<div class="shipping-cart__quantity"><input type="text" placeholder="2" class="shipping-cart__input"></div>
+  				<p class="shipping-cart__parameters shipping">Free</p>
+  				<p class="shipping-cart__parameters subtotal">300$</p>
+  				<a href="" class="shipping-cart__parameters action"><i class="fas fa-times-circle"></i></a>
+  			</div>
+  			<div class="shopping-cart__cart-item">
+  				<div class="shipping-cart__product-details">
+  					<img src="img/cart_item2.jpg" alt="" width="100">
+  					<div class="shipping-cart__product-desc">
+  						<p class="shipping-cart__product-name">Mango  People  T-shirt</p>
+	  					<p class="shipping-cart__attribute">Color: <span>Red</span></p>
+	  					<p class="shipping-cart__attribute">Size: <span>Xll</span></p>
+  					</div>
+  				</div>
+  				<p class="shipping-cart__parameters unite-price">150$</p>
+  				<div class="shipping-cart__quantity"><input type="text" placeholder="2" class="shipping-cart__input"></div>
+  				<p class="shipping-cart__parameters shipping">Free</p>
+  				<p class="shipping-cart__parameters subtotal">300$</p>
+  				<a href="" class="shipping-cart__parameters action"><i class="fas fa-times-circle"></i></a>
+  			</div>
+  			<div class="shopping-cart__cart-item">
+  				<div class="shipping-cart__product-details">
+  					<img src="img/cart_item3.jpg" alt="" width="100">
+  					<div class="shipping-cart__product-desc">
+  						<p class="shipping-cart__product-name">Mango  People  T-shirt</p>
+	  					<p class="shipping-cart__attribute">Color: <span>Red</span></p>
+	  					<p class="shipping-cart__attribute">Size: <span>Xll</span></p>
+  					</div>
+  				</div>
+  				<p class="shipping-cart__parameters unite-price">150$</p>
+  				<div class="shipping-cart__quantity"><input type="text" placeholder="2" class="shipping-cart__input"></div>
+  				<p class="shipping-cart__parameters shipping">Free</p>
+  				<p class="shipping-cart__parameters subtotal">300$</p>
+  				<a href="" class="shipping-cart__parameters action"><i class="fas fa-times-circle"></i></a>
+  			</div>
+  		<div class="shipping-cart__control">
+  			<input type="button" class="shopping-cart__cart-btn" value="Clear shopping cart">
+  			<input type="button" class="shopping-cart__cart-btn" value="Continue shopping">
+  		</div>
+  		</div>
+  	</section>
+
+  	<section class="order">
+  		<div class="container order__container">
+  			<div class="order__shipping-address order__section">
+  				<h4 class="order__title-text">Shipping address</h4>
+  				<select name="" id="" class="order__input">
+  					<option value="">Bangladesh</option>
+  				</select>
+  				<input type="text" placeholder="State" class="order__input">
+  				<input type="text" placeholder="Postcode / Zip" class="order__input">
+  				<input type="button" value="Get a quote" class="order__btn">
+  			</div>
+  			<div class="order__discount order__section">
+  				<h4 class="order__title-text">Shipping address</h4>
+  				<p class="order__description">Enter your coupon code if you have one</p>
+  				<input type="text" placeholder="State" class="order__input">
+  				<input type="button" value="Apply coupon" class="order__btn">
+  			</div>
+  			<div class="order__place-order order__section">
+  				<p class="order__sub-total">Sub total <span>$900</span></p>
+  				<p class="order__grand-total">Grean total <span>$900</span></p>
+  				<input type="button" value="Procced to checkout" class="order__btn-checkout">
+  			</div>
+  		</div>
+  	</section>
 
 	<section class="fb-subscribe">
 		<div class="container fb-subscribe__container">
